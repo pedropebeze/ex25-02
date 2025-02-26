@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+int main(){
+	
+	float IMC;
+	
+	puts("Insira o IMC:");
+	scanf("%f",&IMC);
+	
+	if(IMC<25){
+		if(IMC>=18.5){
+			puts("Intervalo normal");
+			return 0;
+		}
+	}
+	puts("Fora do intervalo normal");
+		
+	
+	return 0;
+}
